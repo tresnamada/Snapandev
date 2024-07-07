@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SnapanDev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container fixed">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg sm:ml-5 text-biru py-6"
+              >SnapanDev</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left rotate"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-black py-2 mx-8 group-hover:text-biru flex"
+                    >About Us</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#division"
+                    class="text-base text-black py-2 mx-8 group-hover:text-biru flex"
+                    >Division</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#project"
+                    class="text-base text-black py-2 mx-8 group-hover:text-biru flex"
+                    >Project</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#news"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-biru"
+                    >News</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#profile"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-biru"
+                    >Profile</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="pt-28 mb-64">
+      <div class="container mx-auto">
+        <div class="flex flex-wrap mx-auto">
+          <div class="w-full self-center pl-9 lg:w-1/2">
+            <h1 class="font-sans font-semibold text-6xl">
+              We Collaborate to build Innovation for a better Future.
+            </h1>
+            <p class="text-abuabu mt-8 font-sans mb-8 text-xl">
+              A community of developers engaged in sharing experiences and
+              knowledge with others, you will find young developers who are
+              enthusiastic to learn and grow together.
+            </p>
+            <button
+              class="py-3 px-5 text-putih bg-biru rounded-full transition duration-300 ease-in-out hover:shadow-md hover:opacity-90"
+            >
+              Join SnapanDev
+            </button>
+            <button class="py-3 px-5 text-biru bg-putih rounded-full">
+              About SnapanDev
+            </button>
+          </div>
+          <div class="w-full self-end pl-5 lg:w-1/2">
+            <div class="pt-24">
+              <img
+                src="asset/asset-image-phone.png"
+                alt=""
+                class="rounded-sm mx-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="asset/script.js"></script>
+  </body>
+</html>
